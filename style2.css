@@ -1,0 +1,107 @@
+@font-face {
+    font-family:  basketball;
+    src: url(basketball.otf)
+}
+div{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: black;
+    border-width: 10;
+    border-style: solid;
+    text-align: center;
+    font-size: 30;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+
+
+
+}
+
+.menu{
+    height: 70px;
+    width: 99%;
+    text-align: right;
+    
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.51);
+    
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu ul li a{
+    text-decoration: none;
+    display: table-cell;
+    padding: 0 40px;
+    color: #281713;
+    font-size: 38px;
+    font-family: basketball;
+
+}
+
+.texto{
+    height: 450px;
+    width: 48%;
+    
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.51);
+}
+
+.image{
+    height: 500px;
+    width: 48%;
+}
+
+.rodape{
+    height: 60px;
+    width: 99%;
+    
+background: rgba(255, 255, 255, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(4.1px);
+-webkit-backdrop-filter: blur(4.1px);
+border: 1px solid rgba(255, 255, 255, 0.51);
+margin-left: 10px;
+}
+
+#logo{
+    float: left;
+    width: 70px;
+    height: 70px;
+    border-color:transparent;
+}
+
+#logo img{
+    width: 90px;
+    height: 60px;
+
+}
+
+.menu ul li a:hover{
+    color: #FFFFFF;
+    background-color: #281713;
+    transform:scale(1.05)
+}
+
+body{
+    background-image: url(NBA-wallpaper-logo-desktop-2024-v2-thumb.jpg);
+}
+
+.rodape img{
+    margin-left: 50px;
+}
+
+.rodape img:hover{
+    transform:scale(1.05)
+}
